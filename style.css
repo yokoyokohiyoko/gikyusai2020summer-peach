@@ -1,0 +1,53 @@
+
+header{
+  background-color: #2A7DFB;
+  font-size: 1.2vw;
+  color: #ffffff;
+}
+
+.header-container{
+  display: flex;
+}
+
+.header-menu{
+  margin-left: 4%;
+  padding: 1% 0;
+}
+
+/* 編集箇所*/
+.main-visual .container{
+  max-width:1000px;
+  margin:0px auto;
+  padding:80px 0px;
+}
+
+.content img {
+  width: 100%;
+}
+
+.profile .container{
+  max-width:1000px;
+  margin:0px auto;
+  padding:80px 0px;
+}
+
+.grid{
+  display: grid;
+  gap: 60px;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  margin: 0 50px;
+}
+
+.grid li {
+  list-style: none;
+  
+}
+/* ここまで */
+
+footer{
+  background-color: #2A7DFB;
+  font-size: 1.5vw;
+  color: #ffffff;
+  text-align: center;
+  padding: 1% 0;
+}
